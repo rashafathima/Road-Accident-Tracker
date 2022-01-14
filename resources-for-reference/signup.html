@@ -1,48 +1,44 @@
+<!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to fit=no">
-		<title>Login Page</title>
-		<link rel="stylesheet" href="css/master2.css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/master2.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="js/sign.js"></script>
+    <title>PlantoGram login</title>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>PlantoGram<br>LogIn</h1>
+        <div class="signin">
 
-	</head>
+            <div class="form-group">
+                <label for="name"><b>Email</b></label>
+                <input type="email" id="email" ><br>
+            </div>
+            <div class="form-group">
+                <label for="pass"><b>Password</b></label>
+                <input type="password" id="password"><br>
+            </div>
+            <div class="form-group">
+                <button onclick="signUp()" id="signUp"><b>SignUp</b></button>
+            </div>
+            <div class="form-group">
+                <button onclick="signIn()" id="signIp"><b>SignIn</b></button>
+            </div>
 
-	<body>
+        </div>
+    </div>
 
-		<div id="wrapper">
-			<div id="table">
-				<a href="login.html" class="">Sign in</a>
-				<a class="active"><strong>Sign Up</strong></a>
-			</div>
-			<div id="signin">
-				<form action="/~/Envirothon/signup" method="POST" enctype="multipart/form-data">
-					<div class="form-group">
-						<label for="username">Username</label>
-						<input type="text" id="username" name="username" autofocus required>
-					</div>
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input type="text" id="name" name="name" autofocus required>
-					</div>
-					<div class="form-group">
-						<label for="pass">Password</label>
-						<input type="password" id="pass" name="password" required>
-						<span id="showpwd" class="fa fa-eye-slash"></span>
-					</div>
 
-					<div class="form-group">
-						<label id="button">
-							<input type="submit" value="Create Account">
-						</label>
-						<input type='hidden' name='redirecturl' value='/~/Envirothon/dashboard'>
-					</div>
-				</form>
-			</div>
-		</div>
-	</body>
+
+</body>
 
 </html>
