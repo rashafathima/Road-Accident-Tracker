@@ -1,4 +1,5 @@
-<?php
+ # for user table-
+<?php 
 $con = mysqli_connect('localhost', 'root');
 
 if($con){
@@ -7,13 +8,13 @@ if($con){
     echo "Connection failed";
 }
 
-mysqli_select_db($con, 'pet_store_db');
+mysqli_select_db($con, 'Accident_Hotspot_db');
 
-$pname =$_POST['pname'];
-$desc =$_POST['desc'];
-$cost =$_POST['cost'];
+$UID =$_POST['UserID'];
+$username =$_POST['username'];
+$password =$_POST['password'];
 
-$query = "INSERT INTO `product`(`pr_name`, `description`, `cost`) VALUES ('$pname','$desc','$cost')";
+$query = "INSERT INTO ` User`(`ID`, `Username`, `password`) VALUES ('$UID','$username','$password')";
 
 mysqli_query($con, $query);
 
