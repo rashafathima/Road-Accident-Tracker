@@ -1,0 +1,48 @@
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to fit=no">
+		<title>Login Page</title>
+		<link rel="stylesheet" href="css/master2.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			<div id="table">
+				<a href="login.html" class="">Sign in</a>
+				<a class="active"><strong>Sign Up</strong></a>
+			</div>
+			<div id="signin">
+				<form action="/~/Envirothon/signup" method="POST" enctype="multipart/form-data">
+					<div class="form-group">
+						<label for="username">Username</label>
+						<input type="text" id="username" name="username" autofocus required>
+					</div>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" autofocus required>
+					</div>
+					<div class="form-group">
+						<label for="pass">Password</label>
+						<input type="password" id="pass" name="password" required>
+						<span id="showpwd" class="fa fa-eye-slash"></span>
+					</div>
+
+					<div class="form-group">
+						<label id="button">
+							<input type="submit" value="Create Account">
+						</label>
+						<input type='hidden' name='redirecturl' value='/~/Envirothon/dashboard'>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>
