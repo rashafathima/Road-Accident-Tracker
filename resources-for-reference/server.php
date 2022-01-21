@@ -30,8 +30,9 @@ if (empty($UID)) { array_push($errors , "Enter User-ID "); }
 if (empty($username)) { array_push($errors , "Enter Username "); }
 if (empty($password)) { array_push($errors , "Enter Password "); }
    
-        $username = mysqli_real_escape_string($con, $username);  
-        $password = mysqli_real_escape_string($con, $password);  
+        //$username = mysqli_real_escape_string($con, $username);  
+        //$password = mysqli_real_escape_string($con, $password);  
+     
       
         $sql = "select * from user where UserID='$UID' and username = '$username' and password = '$password'";  
         $result = mysqli_query($con, $sql);  
