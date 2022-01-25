@@ -8,7 +8,7 @@ $servername = "localhost";
    
      $conn = mysqli_connect($servername, 
          $username, $password, $database);
-$con = mysqli_connect('localhost', 'root','','location');
+$con = mysqli_connect('localhost', 'root','','road_accident_hotspot');
 
 if($con){
     
