@@ -11,7 +11,7 @@ if(isset($_POST['signin']))
     $sql=mysqli_query($conn,"SELECT * FROM user where UID ='$UID' and username = '$username' and password = '$password'");
     //$row  = mysqli_fetch_array($sql);
     $result = mysqli_query($con, $sql);  
-    $row = mysqli_fetch_assoc($result); 
+    $row = mysqli_fetch_array($result); 
     if(is_array($row))
     {
         $_SESSION["UID"] = $row['UID'];
