@@ -4,7 +4,7 @@
     session_start();
     if(isset($_POST['signup'])) {
         extract($_POST);
-        mysqli_select_db($con, 'location');
+        mysqli_select_db($con, 'road_accident_hotspot');
 
         $UID =$_POST['UID'];
         $username =$_POST['username'];
@@ -37,7 +37,7 @@
         $_SESSION["UID"] = $row['UID'];
         $_SESSION["username"]=$row['username'];
         $_SESSION["password"]=$row['password'];
-        header("Location: home.php"); 
+        header("Location: main.php"); 
         }
 
     }
