@@ -1,7 +1,7 @@
 <?php
 
 include("server.php");
-        extract($_POST);
+    
         mysqli_select_db($con, 'road_accident_hotspot');
 session_start();
 
