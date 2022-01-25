@@ -1,4 +1,4 @@
-# Road Accident Tracker
+# Street's On Fire : An Accident Analytics Tool for your Street!
 
 ## Abstract
 
