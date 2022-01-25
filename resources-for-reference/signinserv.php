@@ -4,7 +4,7 @@
     session_start();
     if(isset($_POST['login'])) {
         extract($_POST);
-        mysqli_select_db($con, 'location');
+        mysqli_select_db($con, 'road_accident_hotspot');
 
         $UID =$_POST['UID'];
         $username =$_POST['username'];
