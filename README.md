@@ -1,4 +1,4 @@
-# Street's On Fire : An Accident Analytics Tool for your Street!
+# Street's On Fire : An Accident Analytics Tool 
 
 ## Abstract
 
