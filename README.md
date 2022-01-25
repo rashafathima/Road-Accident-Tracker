@@ -7,7 +7,7 @@ Our project aims on letting users find out hotspot zones of road traffic acciden
 
 ## Languages and Tools
 
-### --> IDE AND TOOLS : Atom, phpMyAdmin
-### --> LANGUAGES : HTML, CSS, JavasScript, PHP
-### --> FRAMEWORKS : Bootstrap, Datatables, Cloudfare, AJAX
-### --> OTHER LIBRARIES AND TOOLS :  ArcGIS, Google Charts, Font Awesome, JQuery
+### --> <b>IDE AND TOOLS</b>  : Atom, phpMyAdmin
+### --> <b>LANGUAGES</b>  : HTML, CSS, JavasScript, PHP
+### --> <b>FRAMEWORKS</b>  : Bootstrap, Datatables, Cloudfare, AJAX
+### --> <b>OTHER LIBRARIES AND TOOLS</b>  :  ArcGIS, Google Charts, Font Awesome, JQuery
