@@ -11,9 +11,9 @@
         $password =$_POST['password'];
 
         
-        $sql="SELECT * FROM user where UserID='$UID' and username = '$username' and password = '$password'"
+        $sql="SELECT * FROM user where UserID='$UID' and username = '$username' and password = '$password'";
         $result = mysqli_query($con, $sql);  
-        $row = mysqli_fetch_array($result);  
+        $row = mysqli_fetch_array($sql);  
         $count = mysqli_num_rows($result); 
         if ($row) { // if user exists
 
