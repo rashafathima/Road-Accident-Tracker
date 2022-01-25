@@ -37,7 +37,7 @@
         $_SESSION["UID"] = $row['UID'];
         $_SESSION["username"]=$row['username'];
         $_SESSION["password"]=$row['password'];
-        header("Location: home.php"); 
+        header("Location: main.php"); 
         }
 
     }
