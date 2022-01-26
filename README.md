@@ -9,5 +9,5 @@ This project was built as a part of our junior year main project. Our project ai
 
 ### --> <b>IDE AND TOOLS</b>  : Atom, phpMyAdmin
 ### --> <b>LANGUAGES</b>  : HTML, CSS, JavasScript, PHP
-### --> <b>FRAMEWORKS</b>  : Bootstrap, Datatables, Cloudfare, AJAX
+### --> <b>FRAMEWORKS</b>  : Bootstrap, Datatables, Cloudfare, AJAX, Firebase
 ### --> <b>OTHER LIBRARIES AND TOOLS</b>  :  ArcGIS, Google Charts, Font Awesome, JQuery
